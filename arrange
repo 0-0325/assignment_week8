@@ -1,0 +1,5 @@
+#!/bin/bash
+
+for startAlphabet in {A..Z} {a..z}; do
+	mv files/"$startAlphabet"* "${startAlphabet,}"/
+done 
